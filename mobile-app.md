@@ -18,7 +18,7 @@ For this project, you will need to design an app that connects to the phones cam
 
 ## Success criteria
 
-Your team will work together to build the mobile app and connect it to your Power AUtomate flow. Your team will have achieved this goal when the following success criteria is met:
+Your team will work together to build the mobile app and connect it to your Power Automate flow. Your team will have achieved this goal when the following success criteria is met:
 
 - You have a mobile app with a camera and a button to tap to capture an image
 
