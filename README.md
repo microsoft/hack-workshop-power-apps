@@ -28,9 +28,20 @@ Each team member will also need a Power Apps account, and you can sign up for a 
 
 > 💁 All the members of your team should be using the same M365 tenant (same school, or all as different users of the same M365 developer program) so that you can work together on this app.
 
-Your team should also be familiar with the following:
+### Power Platform Browser Support
 
-- Git and GitHub
+Users can access the model-driven apps with the most recent versions of these popular browsers:
+
+- Microsoft Edge (based on Chromium)
+- Chrome
+- Firefox
+- Safari
+
+For more details on [supported browsers and troubleshooting](https://docs.microsoft.com/power-platform/admin/supported-web-browsers-and-mobile-devices?WT.mc_id=academic-39324-jabenn)
+
+## Git and GitHub
+
+Your team should also be familiar with the following:
 
   - [Forking](https://docs.github.com/github/getting-started-with-github/quickstart/fork-a-repo) and [cloning](https://docs.github.com/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository) repositories
 
