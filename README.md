@@ -43,7 +43,12 @@ For more details on [supported browsers and troubleshooting](https://docs.micros
 
 Your team should also be familiar with the following:
 
-  - [Forking](https://docs.github.com/github/getting-started-with-github/quickstart/fork-a-repo) and [cloning](https://docs.github.com/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository) repositories
+  - [Forking](https://docs.github.com/github/getting-started-with-github/quickstart/fork-a-repo) 
+
+  - [Cloning](https://docs.github.com/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository) 
+
+  - If you have not used git before we suggest [GitHub Desktop](https://desktop.github.com/)
+
 
 ## Resources
 
