@@ -113,6 +113,10 @@ Your team might find these resources helpful:
 
 - To return a value, you need to use the *Respond to a PowerApp or flow* action. Respond with text, passing the first prediction's `tagName` in a text field called `breed`.
 
+- So body("Parse_JSON") takes the result JSON as a dynamic object, which contains an array of predictions. The first() part gets the first item from this array, and the .tagName extracts the tag name field from that array item `tagname` = customvision.ai tag name of the image and tag = `breed` of dog
+
+- Ensure you add this as Expression and not Dynamic Content
+
 ## Final result
 
 ![A power automate flow showing 4 blogs in a sequence - Power Apps, classify an image, Parse JSON and Respond to a power app or flow](./media/power-automate-flow.png)
