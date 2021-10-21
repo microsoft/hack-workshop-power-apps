@@ -6,11 +6,11 @@ The goal of this section is create a Power Automate flow to classify an image.
 
 ## The no/low-code Service
 
-[![Power Automate logo](./images/power-automate-logo.png)](https://flow.microsoft.com/?WT.mc_id=academic-39324-jabenn)
+[![Power Automate logo](./media/power-automate-logo.png)](https://flow.microsoft.com/?WT.mc_id=academic-39324-jabenn)
 
 [Microsoft Power Automate](https://flow.microsoft.com/?WT.mc_id=academic-39324-jabenn) is a tool for building automated processes using flow-chart style no/low-code development. You start by defining triggers that are run when events happen, such as when a Power Apps mobile app button is tapped, an email is received, a form is submitted, or at a certain time each day. You then define a flow of events that happen using logic blocks, or connectors to services such as Custom Vision, databases, IoT platforms, or productivity applications.
 
-![A power automate flow showing 4 blogs in a sequence - Power Apps, classify an image, Parse JSON and Respond to a power app or flow](./images/power-automate-flow.png)
+![A power automate flow showing 4 blogs in a sequence - Power Apps, classify an image, Parse JSON and Respond to a power app or flow](./media/power-automate-flow.png)
 
 For this workshop, you will need a Power Automate flow that is called by a Power Apps mobile app button. This will be passed an image from the mobile devices camera. This image will then be passed to the Custom Vision connector to classify an image. After the image is classified, the tag with the highest probability will be returned.
 
@@ -52,13 +52,13 @@ Your team might find these resources helpful:
   
   The *Prediction Key* and *Prediction URL* come from the **Prediction URL** dialog. For the URL, you just need the root part, ending in `microsoft.com` or `azure.com` depending on the resource used when it was created.
 
-  ![The prediction key and url dialog](./images/prediction-key-url-root.png)
+  ![The prediction key and url dialog](./media/prediction-key-url-root.png)
 
   In the dialog above, the root URL is `https://westus2.api.cognitive.microsoft.com`.
 
   The *Project ID* comes from the *Project Settings* for your Custom Vision project, available from the cog button.
 
-  ![The custom vision project settings page showing the project ID](./images/custom-vision-project-settings.png)
+  ![The custom vision project settings page showing the project ID](./media/custom-vision-project-settings.png)
 
   The *Published iteration name* is the name you used when you published the iteration.
 
@@ -115,7 +115,7 @@ Your team might find these resources helpful:
 
 ## Final result
 
-![A power automate flow showing 4 blogs in a sequence - Power Apps, classify an image, Parse JSON and Respond to a power app or flow](./images/power-automate-flow.png)
+![A power automate flow showing 4 blogs in a sequence - Power Apps, classify an image, Parse JSON and Respond to a power app or flow](./media/power-automate-flow.png)
 
 ## Next challenge
 

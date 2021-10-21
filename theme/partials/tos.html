@@ -1,0 +1,19 @@
+<!-- See extra.tos to configure -->
+{% if config.extra.tos %}
+    {% for tos in config.extra.tos %}
+        {% set title = tos.name %}
+        {% if not title and "//" in tos.link %}
+            {% set _,url = tos.link.split("//") %}
+            {% set title = url.split("/")[0] %}
+        {% endif %}
+        <a
+            href="{{ tos.link }}"
+            target="_blank" rel="noopener"
+            title="{{ title | e }}"
+            class="md-footer-tos__link"
+        >
+            {{ title }}
+        </a>
+        &nbsp;
+    {% endfor %}
+{% endif %}

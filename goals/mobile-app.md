@@ -4,15 +4,15 @@ Your team has a trained ML model, and built a Power Automate flow to use it. The
 
 ## The no/low-code Service
 
-[![Power Apps logo](./images/power-apps-logo.png)](https://powerapps.microsoft.com/?WT.mc_id=academic-39324-jabenn)
+[![Power Apps logo](./media/power-apps-logo.png)](https://powerapps.microsoft.com/?WT.mc_id=academic-39324-jabenn)
 
 The tool for building mobile apps with no/low-code is called [Microsoft Power Apps](https://powerapps.microsoft.com/?WT.mc_id=academic-39324-jabenn). You create an application by dragging/dropping controls onto a canvas, then adding code where necessary, such as code to call the Power Automate flow.
 
 When you create a mobile app, it runs inside the Power Apps host app - you install Power Apps on your phone, then from inside that app you can access all the different apps you develop.
 
-[![Download Power Apps from the iOS app store](./images/apple-store.png)](https://aka.ms/powerappsios) [![Download Power Apps from the Google play store](./images/google-play-badge.png)](https://aka.ms/powerappsandroid)
+[![Download Power Apps from the iOS app store](./media/apple-store.png)](https://aka.ms/powerappsios) [![Download Power Apps from the Google play store](./media/google-play-badge.png)](https://aka.ms/powerappsandroid)
 
-![The mutt matcher phone app](./images/mutt-match-app-phone.png)
+![The mutt matcher phone app](./media/mutt-match-app-phone.png)
 
 For this project, you will need to design an app that connects to the phones camera, captures an image on a button tap, sends the image to your Power Automate flow, then displays the result. You can design the app any way you like, taking advantage of all the design features to layout and style your app.
 
@@ -66,4 +66,4 @@ Have a mentor check your mobile app. They should be able to point your model dev
 
 ## Final result
 
-![The mutt matcher phone app](./images/mutt-match-app-phone.png)
+![The mutt matcher phone app](./media/mutt-match-app-phone.png)

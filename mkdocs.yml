@@ -1,0 +1,88 @@
+# Project information
+site_name: Microsoft Power Apps Workshop
+site_url: https://microsoft.github.io/hack-workshop-power-apps/
+site_author: Microsoft
+site_description: >-
+  Learn to build an low code mobile app to detect dog breeds using Azure!
+
+# Repository
+repo_name: microsoft/hack-workshop-power-apps
+repo_url: https://github.com/microsoft/hack-workshop-power-apps
+
+copyright: Copyright &copy; Microsoft
+
+# Project structure
+docs_dir: goals
+
+# Customizations & theme
+extra_css:
+  - assets/stylesheets/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/microsoft
+      name: Microsoft on GitHub
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/Microsoft/
+      name: Microsoft on LinkedIn
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/Microsoft
+      name: Microsoft on Twitter
+  tos:
+    - link: https://privacy.microsoft.com/
+      name: Privacy
+    - link: https://www.microsoft.com/en-us/legal/terms-of-use
+      name: Terms of Use
+    - link: https://github.com/microsoft/hack-workshop-power-apps/blob/main/LICENSE
+      name: License
+
+theme:
+  name: material
+  custom_dir: theme
+  features:
+    - navigation.indexes
+    - navigation.instant
+    - navigation.expand
+    - navigation.top
+    - toc.integrate
+  font: false
+  logo: assets/images/8_BIT.png
+  palette:
+    - media: "(prefers-color-scheme: light)" 
+      scheme: default
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)" 
+      scheme: slate
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+    
+# Extensions
+markdown_extensions:
+  - admonition
+  - attr_list
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.snippets
+  - smarty
+  - toc:
+      permalink: True
+
+# Plugins 
+plugins: 
+  - include-markdown
+
+# Navigation
+nav:
+    - Overview: 'index.md'
+    - 'Goals':
+      - 'train-model.md'
+      - 'back-end.md'
+      - 'mobile-app.md'

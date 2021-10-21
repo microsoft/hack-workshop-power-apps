@@ -4,15 +4,15 @@ According to the World Health Organization there are more than 200 million stray
 
 Different breeds have different needs, or react differently to people, so when a stray or lost dog is found, identifying the breed can be a great help.
 
-![The mutt matcher phone app](./images/mutt-match-app-phone.png)
+![The mutt matcher phone app](./goals/media/mutt-match-app-phone.png)
 
 Your team has been asked by a fictional animal shelter to build **Mutt Matcher** - a mobile app to help determine the breed of a dog when it has been found. To help deliver this quickly, this will be a no-code app built using an on-line low/no-code app generation tool. This app will take a photo of the dog, and then use an image classifier Machine learning (ML) model to determine the breed, then show the breed in the app.
 
 This app will help workers and volunteers to be able to quickly detect the breed and make decisions on the best way to approach and care for the dog.
 
-![Pictures of dogs](./images/dog-pictures.png)
+![Pictures of dogs](./goals/media/dog-pictures.png)
 
-The animal shelter has provided [a set of images](./model-images) for a range of dog breeds to get you started. These can be used to train the ML model using a service called Custom Vision.
+The animal shelter has provided [a set of images](https://github.com/microsoft/hack-workshop-power-apps/tree/main/model-images) for a range of dog breeds to get you started. These can be used to train the ML model using a service called Custom Vision.
 
 ## Prerequisites
 
@@ -43,7 +43,7 @@ For more details on [supported browsers and troubleshooting](https://docs.micros
 
 Your team should also be familiar with the following:
 
-  - [Forking](https://docs.github.com/github/getting-started-with-github/quickstart/fork-a-repo) and [cloning](https://docs.github.com/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository) repositories
+- [Forking](https://docs.github.com/github/getting-started-with-github/quickstart/fork-a-repo) and [cloning](https://docs.github.com/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository) repositories
 
 ## Resources
 
@@ -53,7 +53,7 @@ If you get stuck, you can always ask a mentor for additional help.
 
 ## Exploring the application
 
-![Custom Vision logo](./images/custom-vision-logo.png) ![Power Apps logo](./images/power-apps-logo.png) ![Power Automate logo](./images/power-automate-logo.png)
+![Custom Vision logo](./goals/media/custom-vision-logo.png) ![Power Apps logo](./goals/media/power-apps-logo.png) ![Power Automate logo](./goals/media/power-automate-logo.png)
 
 The application your team will build will consist of 2 components:
 
@@ -79,11 +79,11 @@ Your team will train the ML model, build the mobile app, build the back end logi
 
 > 💁 Each goal below defines what you need to achieve, and points you to relevant on-line resources that will show you how the cloud services or tools work. The aim here is not to provide you with detailed steps to complete the task, but allow you to explore the documentation and learn more about the services as you work out how to complete each goal.
 
-1. [Train your ML model](train-model.md): Your team will need to train the ML model in the cloud using Microsoft Custom Vision. You can train and test this model using the images that have been provided by the animal shelter.
+1. [Train your ML model](./goals/train-model.md): Your team will need to train the ML model in the cloud using Microsoft Custom Vision. You can train and test this model using the images that have been provided by the animal shelter.
 
-1. [Build your no/low-code back end](back-end.md): Your team will use Power Automate with the Custom Vision connector to build a Power Automate flow that can be called with an image. This flow will send the image to Custom Vision, and return the detected breed.
+1. [Build your no/low-code back end](./goals/back-end.md): Your team will use Power Automate with the Custom Vision connector to build a Power Automate flow that can be called with an image. This flow will send the image to Custom Vision, and return the detected breed.
 
-1. [Build your no/low-code mobile app](mobile-app.md): Your team will use Power Apps to build a mobile app. This app will interact with the camera, capture an image, send it to the Power Automate flow, then show the result.
+1. [Build your no/low-code mobile app](./goals/mobile-app.md): Your team will use Power Apps to build a mobile app. This app will interact with the camera, capture an image, send it to the Power Automate flow, then show the result.
 
 ## Validation
 
