@@ -49,6 +49,8 @@ Your team should also be familiar with the following:
 
 - If you have not used git before we suggest [GitHub Desktop](https://desktop.github.com/)
 
+If you do not have any experience with GitHub we recommend the following Microsoft Learn Module [Introduction to GitHub](https://docs.microsoft.com/en-us/learn/modules/introduction-to-github?WT.mc_id=academic-39324-jabenn)
+
 ## Resources
 
 A series of resources will be provided to help your team determine the appropriate steps for completion. The resources provided should provide your team with enough information to achieve each goal. These resources include appropriate links to documentation to learn more about the services you are using and how to do common tasks
